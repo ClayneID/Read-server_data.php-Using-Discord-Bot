@@ -23,7 +23,7 @@ if (command === "reader") {
    if(!ip)
      return message.channel.send("Please input the ip!")
 try {
-request.post(`http://${ip}/growtopia/server_data.php`, function(response, body) {
+request.post(`http://${ip}/growtopia/server_data.php`, function(err, response, body) {
    message.channel.send(`Result from ${ip}`)
    message.channel.send(`\`\`\`css\nResult\n${response && response.statusCode}\n${body}\`\`\``)
   })
