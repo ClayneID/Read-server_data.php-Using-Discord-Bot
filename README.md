@@ -1,3 +1,5 @@
+# News
+ - Bug [Object object] and null Response was Fixed!
 # Depedencies
  - Node.js
  - Discord.js
