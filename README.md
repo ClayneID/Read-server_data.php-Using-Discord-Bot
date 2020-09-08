@@ -8,3 +8,5 @@
  3. Change the token bot, to your bot token
  4. Run start.bat
  5. Enjoy....
+# Note
+ If You Have Any Problem, You Can Contact My Discord Or Leave Ur Problem In Issues!
